@@ -1,0 +1,18 @@
+<mat-card class="card">
+    <mat-card-header>
+      
+      <div mat-card-avatar class="image" [ngStyle]="{'background-image': 'url(' + user.img_user + ')'}"></div>
+      <mat-card-title>{{user.name}}</mat-card-title>
+      <mat-card-subtitle>{{user.userName}}</mat-card-subtitle>
+    </mat-card-header>
+    
+    <mat-card-content>
+        <span >            
+            <p><span class="key">City:</span> {{user.userData[0]}}</p>
+            <p><span class="key">Company:</span> {{user.userData[1]}}</p>
+            <p><span class="key">Email:</span> {{user.userData[2]}}</p>
+        </span>
+    </mat-card-content>
+    
+  </mat-card>
+  

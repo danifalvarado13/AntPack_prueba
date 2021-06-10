@@ -1,0 +1,7 @@
+<app-toolbar-component></app-toolbar-component>
+<div class="container">
+    <ng-container  *ngFor="let user of usuarios">
+        <app-user-component [user]=user ></app-user-component>
+        
+    </ng-container>
+</div>
